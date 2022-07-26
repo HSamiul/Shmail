@@ -8,13 +8,35 @@
 import SwiftUI
 
 struct MasterView: View {
+    @StateObject private var settings = Settings()
+    
     var body: some View {
-        NavigationView {
+        NavigationStack {
             InboxView()
+                .toolbar {
+                    HStack(spacing: 0) {
+                        NavigationLink { ProfileView() } label: {
+                            ButtonLabel("person.crop.circle")
+                        }
+                        NavigationLink { SettingsView(settings) } label: {
+                            ButtonLabel("gearshape")
+                        }
+                    }
+                }
         }
-        .toolbar {
-            
-        }
+        .environmentObject(settings)
+    }
+}
+
+struct ButtonLabel: View {
+    private var imageName: String
+    
+    init(_ imageName: String) {
+        self.imageName = imageName
+    }
+    
+    var body: some View {
+        Image(systemName: imageName)
     }
 }
 

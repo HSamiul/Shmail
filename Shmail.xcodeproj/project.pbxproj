@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4242709C2890508C0050FF20 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4242709B2890508B0050FF20 /* ProfileView.swift */; };
+		4242709E289057660050FF20 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4242709D289057660050FF20 /* MockData.swift */; };
 		425FCAA4288F995100F3C650 /* ShmailApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425FCAA3288F995100F3C650 /* ShmailApp.swift */; };
 		425FCAA6288F995100F3C650 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425FCAA5288F995100F3C650 /* ContentView.swift */; };
 		425FCAA8288F995200F3C650 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425FCAA7288F995200F3C650 /* Assets.xcassets */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4242709B2890508B0050FF20 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4242709D289057660050FF20 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		425FCAA0288F995100F3C650 /* Shmail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shmail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		425FCAA3288F995100F3C650 /* ShmailApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShmailApp.swift; sourceTree = "<group>"; };
 		425FCAA5288F995100F3C650 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,10 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				425FCAA3288F995100F3C650 /* ShmailApp.swift */,
+				4242709B2890508B0050FF20 /* ProfileView.swift */,
 				425FCAA5288F995100F3C650 /* ContentView.swift */,
 				425FCACE288F9A4E00F3C650 /* MasterView.swift */,
 				425FCAD2288F9D2900F3C650 /* SettingsView.swift */,
 				425FCAD0288F9BB100F3C650 /* InboxView.swift */,
+				4242709D289057660050FF20 /* MockData.swift */,
 				425FCAA7288F995200F3C650 /* Assets.xcassets */,
 				425FCAA9288F995200F3C650 /* Shmail.entitlements */,
 				425FCAAA288F995200F3C650 /* Preview Content */,
@@ -272,6 +278,8 @@
 				425FCACF288F9A4E00F3C650 /* MasterView.swift in Sources */,
 				425FCAD1288F9BB100F3C650 /* InboxView.swift in Sources */,
 				425FCAA6288F995100F3C650 /* ContentView.swift in Sources */,
+				4242709C2890508C0050FF20 /* ProfileView.swift in Sources */,
+				4242709E289057660050FF20 /* MockData.swift in Sources */,
 				425FCAA4288F995100F3C650 /* ShmailApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

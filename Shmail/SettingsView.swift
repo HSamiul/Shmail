@@ -18,28 +18,26 @@ class Settings: ObservableObject {
 
 struct SettingsView: View {
     @ObservedObject private var settings: Settings
-    @State private var accentColor: Color
-    @State private var appearance: Appearance
     
     init(_ settings: Settings) {
         self.settings = settings
-        self.accentColor = settings.accentColor
-        self.appearance = settings.appearance
     }
     
     var body: some View {
         Form {
             Section("Appearance") {
-                ColorPicker("Accent Color", selection: $accentColor, supportsOpacity: false)
+                ColorPicker("Accent Color", selection: $settings.accentColor, supportsOpacity: false)
+                
+                Picker("Theme", selection: $settings.appearance) {
+                    Text("System").tag(Appearance.system)
+                    Text("Light").tag(Appearance.light)
+                    Text("Dark").tag(Appearance.dark)
+                }
+                .pickerStyle(.menu)
             }
             
-            Picker("Theme", selection: $appearance) {
-                Text("System").tag(Appearance.system)
-                Text("Light").tag(Appearance.light)
-                Text("Dark").tag(Appearance.dark)
-            }
-            .pickerStyle(.menu)            
         }
+        .navigationTitle("Settings")
     }
 }
 
