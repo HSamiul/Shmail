@@ -14,6 +14,9 @@
 		425FCAB6288F995200F3C650 /* ShmailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425FCAB5288F995200F3C650 /* ShmailTests.swift */; };
 		425FCAC0288F995200F3C650 /* ShmailUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425FCABF288F995200F3C650 /* ShmailUITests.swift */; };
 		425FCAC2288F995200F3C650 /* ShmailUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425FCAC1288F995200F3C650 /* ShmailUITestsLaunchTests.swift */; };
+		425FCACF288F9A4E00F3C650 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425FCACE288F9A4E00F3C650 /* MasterView.swift */; };
+		425FCAD1288F9BB100F3C650 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425FCAD0288F9BB100F3C650 /* InboxView.swift */; };
+		425FCAD3288F9D2900F3C650 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425FCAD2288F9D2900F3C650 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		425FCABB288F995200F3C650 /* ShmailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShmailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		425FCABF288F995200F3C650 /* ShmailUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShmailUITests.swift; sourceTree = "<group>"; };
 		425FCAC1288F995200F3C650 /* ShmailUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShmailUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		425FCACE288F9A4E00F3C650 /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
+		425FCAD0288F9BB100F3C650 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		425FCAD2288F9D2900F3C650 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				425FCAA3288F995100F3C650 /* ShmailApp.swift */,
 				425FCAA5288F995100F3C650 /* ContentView.swift */,
+				425FCACE288F9A4E00F3C650 /* MasterView.swift */,
+				425FCAD2288F9D2900F3C650 /* SettingsView.swift */,
+				425FCAD0288F9BB100F3C650 /* InboxView.swift */,
 				425FCAA7288F995200F3C650 /* Assets.xcassets */,
 				425FCAA9288F995200F3C650 /* Shmail.entitlements */,
 				425FCAAA288F995200F3C650 /* Preview Content */,
@@ -259,6 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				425FCAD3288F9D2900F3C650 /* SettingsView.swift in Sources */,
+				425FCACF288F9A4E00F3C650 /* MasterView.swift in Sources */,
+				425FCAD1288F9BB100F3C650 /* InboxView.swift in Sources */,
 				425FCAA6288F995100F3C650 /* ContentView.swift in Sources */,
 				425FCAA4288F995100F3C650 /* ShmailApp.swift in Sources */,
 			);
